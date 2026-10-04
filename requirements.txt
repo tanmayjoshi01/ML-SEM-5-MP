@@ -1,0 +1,17 @@
+# Requires Python 3.12 or 3.13 (64-bit).
+#   - numpy 2.5.3, scipy 1.18.1 and xgboost 3.4.1 need Python >= 3.12
+#   - tensorflow 2.21.0 ships wheels for Python 3.10-3.13 only
+# Every package below has a ready-made wheel for Windows (win_amd64),
+# macOS on Apple Silicon (arm64) and Linux (x86_64), so nothing is compiled.
+# Intel Macs are NOT supported: TensorFlow 2.21 has no macOS x86_64 wheel.
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+tensorflow==2.21.0   # plain "tensorflow" (not tensorflow-cpu): it is the only one with macOS wheels
+keras==3.15.1
+joblib==1.6.0
+matplotlib==3.11.2
+streamlit==1.65.0
+plotly==7.1.0
