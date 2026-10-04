@@ -1,0 +1,4 @@
+stage,Linear Regression,Random Forest,XGBoost,LSTM
+Early,22.698,27.532,26.212,35.537
+Middle,12.925,14.585,13.618,22.183
+Late,20.102,2.827,3.282,11.097
